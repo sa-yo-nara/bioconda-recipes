@@ -1,0 +1,4 @@
+12:29:29 [32mBIOCONDA INFO[0m Considering total of 1 recipes (hapnest).[0m
+12:29:29 [32mBIOCONDA INFO[0m Constraining to 1 git modified recipes (hapnest).[0m
+12:29:29 [32mBIOCONDA INFO[0m Processing 1 recipes (hapnest).[0m
+⠋ running (0:00:00.00)                       All checks OK
