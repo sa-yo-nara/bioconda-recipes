@@ -1,12 +1,12 @@
-16:13:16 [32mBIOCONDA INFO[0m Considering total of 1 recipes (epigen).[0m
-16:13:16 [32mBIOCONDA INFO[0m Constraining to 1 git modified recipes (epigen).[0m
-16:13:16 [32mBIOCONDA INFO[0m Processing 1 recipes (epigen).[0m
-16:13:16 [32mBIOCONDA INFO[0m Generating DAG[0m
+19:57:24 [32mBIOCONDA INFO[0m Considering total of 1 recipes (epigen).[0m
+19:57:24 [32mBIOCONDA INFO[0m Constraining to 1 git modified recipes (epigen).[0m
+19:57:24 [32mBIOCONDA INFO[0m Processing 1 recipes (epigen).[0m
+19:57:24 [32mBIOCONDA INFO[0m Generating DAG[0m
 WARNING: Setting build platform. This is only useful when pretending to be on another platform, such as for rendering necessary dependencies on a non-native platform. I trust that you know what you're doing.
 WARNING: No numpy version specified in conda_build_config.yaml.  Falling back to default numpy value of 1.22
-16:13:16 [32mBIOCONDA INFO[0m 1 recipes to build and test: 
+19:57:25 [32mBIOCONDA INFO[0m 1 recipes to build and test: 
 epigen[0m
-16:13:16 [32mBIOCONDA INFO[0m Determining expected packages for recipes/epigen[0m
+19:57:25 [32mBIOCONDA INFO[0m Determining expected packages for recipes/epigen[0m
 Adding in variants from internal_defaults
 Adding in variants from /home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/conda_build_config.yaml
 Adding in variants from /home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/lib/python3.10/site-packages/bioconda_utils/bioconda_utils-conda_build_config.yaml
@@ -16,103 +16,154 @@ Reloading output folder (local): ...working... done
 Getting pinned dependencies: ...working... done
 Reloading output folder (local): ...working... done
 Getting pinned dependencies: ...working... done
-16:16:01 [32mBIOCONDA INFO[0m BUILD START recipes/epigen[0m
-16:16:02 [32mBIOCONDA INFO[0m (COMMAND) /home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/bin/conda-build --override-channels --no-anaconda-upload -c conda-forge -c bioconda -e /home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/conda_build_config.yaml -e /home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/lib/python3.10/site-packages/bioconda_utils/bioconda_utils-conda_build_config.yaml recipes/epigen/meta.yaml[0m
-16:16:02 [32mBIOCONDA INFO[0m (ERR) /home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/lib/python3.10/site-packages/conda_build/cli/main_build.py:501: UserWarning: RECIPE_PATH received is a file (recipes/epigen/meta.yaml).[0m
-16:16:02 [32mBIOCONDA INFO[0m (ERR) It should be a path to a folder.[0m
-16:16:02 [32mBIOCONDA INFO[0m (ERR) Forcing conda-build to use the recipe file.[0m
-16:16:02 [32mBIOCONDA INFO[0m (ERR)   warnings.warn([0m
-16:16:02 [32mBIOCONDA INFO[0m (ERR) WARNING: No numpy version specified in conda_build_config.yaml.  Falling back to default numpy value of 1.22[0m
-16:16:02 [32mBIOCONDA INFO[0m (OUT) Adding in variants from internal_defaults[0m
-16:16:02 [32mBIOCONDA INFO[0m (OUT) Adding in variants from /home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/conda_build_config.yaml[0m
-16:16:02 [32mBIOCONDA INFO[0m (OUT) Adding in variants from /home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/lib/python3.10/site-packages/bioconda_utils/bioconda_utils-conda_build_config.yaml[0m
-16:16:03 [32mBIOCONDA INFO[0m (OUT) Attempting to finalize metadata for epigen[0m
-.16:17:42 [32mBIOCONDA INFO[0m (OUT) Reloading output folder (local): ...working... done[0m
-16:17:43 [32mBIOCONDA INFO[0m (OUT) Getting pinned dependencies: ...working... done[0m
-16:17:45 [32mBIOCONDA INFO[0m (OUT) Reloading output folder (local): ...working... done[0m
-16:17:45 [32mBIOCONDA INFO[0m (OUT) Getting pinned dependencies: ...working... done[0m
-16:17:46 [32mBIOCONDA INFO[0m (OUT) BUILD START: ['epigen-1-py313hdfd78af_0.tar.bz2'][0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT) Reloading output folder (local): ...working... done[0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT) Solving environment (_h_env): ...working... done[0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT) [0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT) ## Package Plan ##[0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT) [0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT)   environment location: /home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/conda-bld/epigen_1737731762753/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_[0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT) [0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT) [0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT) The following NEW packages will be INSTALLED:[0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT) [0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT)     _libgcc_mutex:    0.1-conda_forge           conda-forge[0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT)     _openmp_mutex:    4.5-2_gnu                 conda-forge[0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT)     bzip2:            1.0.8-h4bc722e_7          conda-forge[0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT)     ca-certificates:  2024.12.14-hbcca054_0     conda-forge[0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT)     ld_impl_linux-64: 2.43-h712a8e2_2           conda-forge[0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT)     libexpat:         2.6.4-h5888daf_0          conda-forge[0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT)     libffi:           3.4.2-h7f98852_5          conda-forge[0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT)     libgcc:           14.2.0-h77fa898_1         conda-forge[0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT)     libgcc-ng:        14.2.0-h69a702a_1         conda-forge[0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT)     libgomp:          14.2.0-h77fa898_1         conda-forge[0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT)     liblzma:          5.6.3-hb9d3cd8_1          conda-forge[0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT)     libmpdec:         4.0.0-h4bc722e_0          conda-forge[0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT)     libsqlite:        3.48.0-hee588c1_1         conda-forge[0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT)     libuuid:          2.38.1-h0b41bf4_0         conda-forge[0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT)     libzlib:          1.3.1-hb9d3cd8_2          conda-forge[0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT)     ncurses:          6.5-h2d0b736_2            conda-forge[0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT)     openssl:          3.4.0-h7b32b05_1          conda-forge[0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT)     pip:              24.3.1-pyh145f28c_2       conda-forge[0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT)     python:           3.13.1-ha99a958_105_cp313 conda-forge[0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT)     python_abi:       3.13-5_cp313              conda-forge[0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT)     readline:         8.2-h8228510_1            conda-forge[0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT)     tk:               8.6.13-noxft_h4845f30_101 conda-forge[0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT)     tzdata:           2025a-h78e105d_0          conda-forge[0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT) [0m
-16:17:47 [32mBIOCONDA INFO[0m (OUT) Preparing transaction: ...working... done[0m
-16:17:51 [32mBIOCONDA INFO[0m (OUT) Verifying transaction: ...working... done[0m
-16:17:54 [32mBIOCONDA INFO[0m (OUT) Executing transaction: ...working... done[0m
-16:17:55 [32mBIOCONDA INFO[0m (OUT) Reloading output folder (local): ...working... done[0m
-16:17:56 [32mBIOCONDA INFO[0m (OUT) Solving environment (_test_env): ...working... done[0m
-16:17:56 [32mBIOCONDA INFO[0m (OUT) Source cache directory is: /home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/conda-bld/src_cache[0m
-16:17:56 [32mBIOCONDA INFO[0m (OUT) Found source in cache: 2094e45fc2c9eb7bf1470f58eb31ab50e41ec7bd_1f22f3df65.zip[0m
-16:18:00 [32mBIOCONDA INFO[0m (OUT) checking file ext/HAPGEN2/Darwin/hapgen2[0m
-16:18:00 [32mBIOCONDA INFO[0m (OUT) Not deleting file ext/HAPGEN2/Darwin/hapgen2 as content differs from patch[0m
-16:18:00 [32mBIOCONDA INFO[0m (OUT) checking file ext/HAPGEN2/Linux/hapgen2[0m
-16:18:00 [32mBIOCONDA INFO[0m (OUT) Not deleting file ext/HAPGEN2/Linux/hapgen2 as content differs from patch[0m
-16:18:00 [32mBIOCONDA INFO[0m (OUT) checking file generate_genotype_corpus.py[0m
-16:18:00 [32mBIOCONDA INFO[0m (OUT) checking file merge_genotype_corpora.py[0m
-16:18:00 [32mBIOCONDA INFO[0m (OUT) checking file simulate_data.py[0m
-16:18:00 [32mBIOCONDA INFO[0m (OUT) checking file test_runtime.py[0m
-16:18:00 [32mBIOCONDA INFO[0m (OUT) checking file utils/argparse_checks.py[0m
-16:18:00 [32mBIOCONDA INFO[0m (OUT) checking file utils/data_simulator.py[0m
-16:18:00 [32mBIOCONDA INFO[0m (OUT) checking file utils/extensional_model.py[0m
-16:18:00 [32mBIOCONDA INFO[0m (OUT) checking file utils/genotype_corpus_generator.py[0m
-16:18:00 [32mBIOCONDA INFO[0m (OUT) checking file utils/genotype_corpus_merger.py[0m
-16:18:00 [32mBIOCONDA INFO[0m (OUT) checking file utils/parametrized_model.py[0m
-16:18:00 [32mBIOCONDA INFO[0m (OUT) checking file utils/validation_utils.py[0m
-16:18:00 [32mBIOCONDA INFO[0m (OUT) checking file validate_simulated_data.py[0m
-16:18:00 [32mBIOCONDA INFO[0m (OUT) Extracting download[0m
-16:18:00 [32mBIOCONDA INFO[0m (ERR) Traceback (most recent call last):[0m
-16:18:00 [32mBIOCONDA INFO[0m (OUT) Applying patch: /home/biologia/saidahmed/bioconda-recipes/recipes/epigen/0002_epigen.patch[0m
-16:18:00 [32mBIOCONDA INFO[0m (ERR)   File "/home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/bin/conda-build", line 11, in <module>[0m
-16:18:00 [32mBIOCONDA INFO[0m (OUT) Applying patch: /home/biologia/saidahmed/bioconda-recipes/recipes/epigen/0002_epigen.patch with args:[0m
-16:18:00 [32mBIOCONDA INFO[0m (ERR)     sys.exit(execute())[0m
-16:18:00 [32mBIOCONDA INFO[0m (OUT) ['-Np1', '-i', '/tmp/tmpf05wa87r/0002_epigen.patch.native', '--binary'][0m
-16:18:00 [32mBIOCONDA INFO[0m (OUT) Warning: failed to download source.  If building, will try again after downloading recipe dependencies.[0m
-16:18:00 [32mBIOCONDA INFO[0m (OUT) Error was:[0m
-16:18:00 [32mBIOCONDA INFO[0m (ERR)   File "/home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/lib/python3.10/site-packages/conda_build/cli/main_build.py", line 590, in execute[0m
-16:18:00 [32mBIOCONDA INFO[0m (ERR)     api.build([0m
-16:18:00 [32mBIOCONDA INFO[0m (OUT) Command '['/home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/bin/patch', '--no-backup-if-mismatch', '--batch', '-Np1', '-i', '/tmp/tmpf05wa87r/0002_epigen.patch.native', '--binary', '--dry-run']' returned non-zero exit status 1.[0m
-16:18:00 [32mBIOCONDA INFO[0m (ERR)   File "/home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/lib/python3.10/site-packages/conda_build/api.py", line 250, in build[0m
-16:18:00 [32mBIOCONDA INFO[0m (ERR)     return build_tree([0m
-16:18:00 [32mBIOCONDA INFO[0m (ERR)   File "/home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/lib/python3.10/site-packages/conda_build/build.py", line 3638, in build_tree[0m
-16:18:00 [32mBIOCONDA INFO[0m (ERR)     packages_from_this = build([0m
-16:18:00 [32mBIOCONDA INFO[0m (ERR)   File "/home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/lib/python3.10/site-packages/conda_build/build.py", line 2419, in build[0m
-16:18:00 [32mBIOCONDA INFO[0m (ERR)     try_download(m, no_download_source=False, raise_error=True)[0m
-16:18:00 [32mBIOCONDA INFO[0m (ERR)   File "/home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/lib/python3.10/site-packages/conda_build/render.py", line 779, in try_download[0m
-16:18:00 [32mBIOCONDA INFO[0m (ERR)     raise RuntimeError([0m
-16:18:00 [32mBIOCONDA INFO[0m (ERR) RuntimeError: Failed to download or patch source. Please see build log for info.[0m
-.16:18:09 [31mBIOCONDA ERROR[0m COMMAND FAILED (exited with 1): /home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/bin/conda-build --override-channels --no-anaconda-upload -c conda-forge -c bioconda -e /home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/conda_build_config.yaml -e /home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/lib/python3.10/site-packages/bioconda_utils/bioconda_utils-conda_build_config.yaml recipes/epigen/meta.yaml[0m
+20:00:01 [32mBIOCONDA INFO[0m BUILD START recipes/epigen[0m
+20:00:02 [32mBIOCONDA INFO[0m (COMMAND) /home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/bin/conda-build --override-channels --no-anaconda-upload -c conda-forge -c bioconda -e /home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/conda_build_config.yaml -e /home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/lib/python3.10/site-packages/bioconda_utils/bioconda_utils-conda_build_config.yaml recipes/epigen/meta.yaml[0m
+20:00:02 [32mBIOCONDA INFO[0m (ERR) /home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/lib/python3.10/site-packages/conda_build/cli/main_build.py:501: UserWarning: RECIPE_PATH received is a file (recipes/epigen/meta.yaml).[0m
+20:00:02 [32mBIOCONDA INFO[0m (ERR) It should be a path to a folder.[0m
+20:00:02 [32mBIOCONDA INFO[0m (ERR) Forcing conda-build to use the recipe file.[0m
+20:00:02 [32mBIOCONDA INFO[0m (ERR)   warnings.warn([0m
+20:00:02 [32mBIOCONDA INFO[0m (ERR) WARNING: No numpy version specified in conda_build_config.yaml.  Falling back to default numpy value of 1.22[0m
+20:00:03 [32mBIOCONDA INFO[0m (OUT) Adding in variants from internal_defaults[0m
+20:00:03 [32mBIOCONDA INFO[0m (OUT) Adding in variants from /home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/conda_build_config.yaml[0m
+20:00:03 [32mBIOCONDA INFO[0m (OUT) Adding in variants from /home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/lib/python3.10/site-packages/bioconda_utils/bioconda_utils-conda_build_config.yaml[0m
+20:00:03 [32mBIOCONDA INFO[0m (OUT) Attempting to finalize metadata for epigen[0m
+.20:01:43 [32mBIOCONDA INFO[0m (OUT) Reloading output folder (local): ...working... done[0m
+20:01:43 [32mBIOCONDA INFO[0m (OUT) Getting pinned dependencies: ...working... done[0m
+20:01:45 [32mBIOCONDA INFO[0m (OUT) Reloading output folder (local): ...working... done[0m
+20:01:45 [32mBIOCONDA INFO[0m (OUT) Getting pinned dependencies: ...working... done[0m
+20:01:47 [32mBIOCONDA INFO[0m (OUT) BUILD START: ['epigen-1-py313hdfd78af_0.tar.bz2'][0m
+20:01:47 [32mBIOCONDA INFO[0m (OUT) Reloading output folder (local): ...working... done[0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT) Solving environment (_h_env): ...working... done[0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT) [0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT) ## Package Plan ##[0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT) [0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT)   environment location: /home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/conda-bld/epigen_1737745202912/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_[0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT) [0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT) [0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT) The following NEW packages will be INSTALLED:[0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT) [0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT)     _libgcc_mutex:    0.1-conda_forge           conda-forge[0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT)     _openmp_mutex:    4.5-2_gnu                 conda-forge[0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT)     bzip2:            1.0.8-h4bc722e_7          conda-forge[0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT)     ca-certificates:  2024.12.14-hbcca054_0     conda-forge[0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT)     ld_impl_linux-64: 2.43-h712a8e2_2           conda-forge[0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT)     libexpat:         2.6.4-h5888daf_0          conda-forge[0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT)     libffi:           3.4.2-h7f98852_5          conda-forge[0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT)     libgcc:           14.2.0-h77fa898_1         conda-forge[0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT)     libgcc-ng:        14.2.0-h69a702a_1         conda-forge[0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT)     libgomp:          14.2.0-h77fa898_1         conda-forge[0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT)     liblzma:          5.6.3-hb9d3cd8_1          conda-forge[0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT)     libmpdec:         4.0.0-h4bc722e_0          conda-forge[0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT)     libsqlite:        3.48.0-hee588c1_1         conda-forge[0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT)     libuuid:          2.38.1-h0b41bf4_0         conda-forge[0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT)     libzlib:          1.3.1-hb9d3cd8_2          conda-forge[0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT)     ncurses:          6.5-h2d0b736_2            conda-forge[0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT)     openssl:          3.4.0-h7b32b05_1          conda-forge[0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT)     pip:              24.3.1-pyh145f28c_2       conda-forge[0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT)     python:           3.13.1-ha99a958_105_cp313 conda-forge[0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT)     python_abi:       3.13-5_cp313              conda-forge[0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT)     readline:         8.2-h8228510_1            conda-forge[0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT)     tk:               8.6.13-noxft_h4845f30_101 conda-forge[0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT)     tzdata:           2025a-h78e105d_0          conda-forge[0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT) [0m
+20:01:48 [32mBIOCONDA INFO[0m (OUT) Preparing transaction: ...working... done[0m
+20:01:52 [32mBIOCONDA INFO[0m (OUT) Verifying transaction: ...working... done[0m
+20:01:55 [32mBIOCONDA INFO[0m (OUT) Executing transaction: ...working... done[0m
+20:01:57 [32mBIOCONDA INFO[0m (OUT) Reloading output folder (local): ...working... done[0m
+20:01:58 [32mBIOCONDA INFO[0m (OUT) Solving environment (_test_env): ...working... done[0m
+20:01:58 [32mBIOCONDA INFO[0m (OUT) Source cache directory is: /home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/conda-bld/src_cache[0m
+20:01:58 [32mBIOCONDA INFO[0m (OUT) Found source in cache: 2094e45fc2c9eb7bf1470f58eb31ab50e41ec7bd_1f22f3df65.zip[0m
+.20:02:02 [32mBIOCONDA INFO[0m (OUT) can't find file to patch at input line 3[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) Perhaps you used the wrong -p or --strip option?[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) The text leading up to this was:[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) --------------------------[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) |--- argparse_checks.py	2024-02-01 16:00:04.000000000 +0100[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) |+++ new/argparse_checks.py	2024-02-01 16:14:55.000000000 +0100[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) --------------------------[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) No file to patch.  Skipping patch.[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) 2 out of 2 hunks ignored[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) can't find file to patch at input line 16[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) Perhaps you used the wrong -p or --strip option?[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) The text leading up to this was:[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) --------------------------[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) |--- data_simulator.py	2024-02-01 16:00:05.000000000 +0100[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) |+++ new/data_simulator.py	2024-02-01 16:14:45.000000000 +0100[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) --------------------------[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) No file to patch.  Skipping patch.[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) 2 out of 2 hunks ignored[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) can't find file to patch at input line 29[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) Perhaps you used the wrong -p or --strip option?[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) The text leading up to this was:[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) --------------------------[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) |--- extensional_model.py	2024-02-01 16:00:03.000000000 +0100[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) |+++ new/extensional_model.py	2024-02-01 16:14:33.000000000 +0100[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) --------------------------[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) No file to patch.  Skipping patch.[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) 2 out of 2 hunks ignored[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) can't find file to patch at input line 42[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) Perhaps you used the wrong -p or --strip option?[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) The text leading up to this was:[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) --------------------------[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) |--- genotype_corpus_generator.py	2024-02-01 16:00:03.000000000 +0100[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) |+++ new/genotype_corpus_generator.py	2024-02-01 16:14:20.000000000 +0100[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) --------------------------[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) No file to patch.  Skipping patch.[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) 2 out of 2 hunks ignored[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) can't find file to patch at input line 55[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) Perhaps you used the wrong -p or --strip option?[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) The text leading up to this was:[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) --------------------------[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) |--- genotype_corpus_merger.py	2024-02-01 16:00:04.000000000 +0100[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) |+++ new/genotype_corpus_merger.py	2024-02-01 16:14:04.000000000 +0100[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) --------------------------[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) No file to patch.  Skipping patch.[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) 1 out of 1 hunk ignored[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) checking file merge_genotype_corpora.py[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) can't find file to patch at input line 75[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) Perhaps you used the wrong -p or --strip option?[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) The text leading up to this was:[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) --------------------------[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) |--- parametrized_model.py	2024-02-01 16:00:02.000000000 +0100[0m
+20:02:02 [32mBIOCONDA INFO[0m (ERR) Traceback (most recent call last):[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) |+++ new/parametrized_model.py	2024-02-01 16:13:40.000000000 +0100[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) --------------------------[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) No file to patch.  Skipping patch.[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) 2 out of 2 hunks ignored[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) checking file simulate_data.py[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) checking file test_runtime.py[0m
+20:02:02 [32mBIOCONDA INFO[0m (ERR)   File "/home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/bin/conda-build", line 11, in <module>[0m
+20:02:02 [32mBIOCONDA INFO[0m (ERR)     sys.exit(execute())[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) checking file validate_simulated_data.py[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) can't find file to patch at input line 127[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) Perhaps you used the wrong -p or --strip option?[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) The text leading up to this was:[0m
+20:02:02 [32mBIOCONDA INFO[0m (ERR)   File "/home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/lib/python3.10/site-packages/conda_build/cli/main_build.py", line 590, in execute[0m
+20:02:02 [32mBIOCONDA INFO[0m (ERR)     api.build([0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) --------------------------[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) |--- validation_utils.py	2024-02-01 16:00:04.000000000 +0100[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) |+++ new/validation_utils.py	2024-02-01 16:12:57.000000000 +0100[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) --------------------------[0m
+20:02:02 [32mBIOCONDA INFO[0m (ERR)   File "/home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/lib/python3.10/site-packages/conda_build/api.py", line 250, in build[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) No file to patch.  Skipping patch.[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) 1 out of 1 hunk ignored[0m
+20:02:02 [32mBIOCONDA INFO[0m (ERR)     return build_tree([0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) Extracting download[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) Applying patch: /home/biologia/saidahmed/bioconda-recipes/recipes/epigen/0002_epigen.patch[0m
+20:02:02 [32mBIOCONDA INFO[0m (ERR)   File "/home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/lib/python3.10/site-packages/conda_build/build.py", line 3638, in build_tree[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) Applying patch: /home/biologia/saidahmed/bioconda-recipes/recipes/epigen/0002_epigen.patch with args:[0m
+20:02:02 [32mBIOCONDA INFO[0m (ERR)     packages_from_this = build([0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) ['-Np0', '-i', '/tmp/tmpz9w72ccs/0002_epigen.patch.native', '--binary'][0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) Warning: failed to download source.  If building, will try again after downloading recipe dependencies.[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) Error was:[0m
+20:02:02 [32mBIOCONDA INFO[0m (ERR)   File "/home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/lib/python3.10/site-packages/conda_build/build.py", line 2419, in build[0m
+20:02:02 [32mBIOCONDA INFO[0m (ERR)     try_download(m, no_download_source=False, raise_error=True)[0m
+20:02:02 [32mBIOCONDA INFO[0m (OUT) Command '['/home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/bin/patch', '--no-backup-if-mismatch', '--batch', '-Np0', '-i', '/tmp/tmpz9w72ccs/0002_epigen.patch.native', '--binary', '--dry-run']' returned non-zero exit status 1.[0m
+20:02:02 [32mBIOCONDA INFO[0m (ERR)   File "/home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/lib/python3.10/site-packages/conda_build/render.py", line 779, in try_download[0m
+20:02:02 [32mBIOCONDA INFO[0m (ERR)     raise RuntimeError([0m
+20:02:02 [32mBIOCONDA INFO[0m (ERR) RuntimeError: Failed to download or patch source. Please see build log for info.[0m
+20:02:14 [31mBIOCONDA ERROR[0m COMMAND FAILED (exited with 1): /home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/bin/conda-build --override-channels --no-anaconda-upload -c conda-forge -c bioconda -e /home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/conda_build_config.yaml -e /home/biologia/saidahmed/.conda/envs/mamba/envs/bioconda/lib/python3.10/site-packages/bioconda_utils/bioconda_utils-conda_build_config.yaml recipes/epigen/meta.yaml[0m
 
-16:18:09 [31mBIOCONDA ERROR[0m BUILD FAILED recipes/epigen[0m
-16:18:09 [32mBIOCONDA INFO[0m (COMMAND) conda build purge[0m
-⠋ running (0:00:00.00)                       16:18:10 [31mBIOCONDA ERROR[0m BUILD SUMMARY: of 1 recipes, 1 failed and 0 were skipped. Details of recipes and environments follow.[0m
-16:18:10 [31mBIOCONDA ERROR[0m BUILD SUMMARY: FAILED recipe recipes/epigen[0m
+20:02:14 [31mBIOCONDA ERROR[0m BUILD FAILED recipes/epigen[0m
+20:02:14 [32mBIOCONDA INFO[0m (COMMAND) conda build purge[0m
+⠋ running (0:00:00.00)                       20:02:15 [31mBIOCONDA ERROR[0m BUILD SUMMARY: of 1 recipes, 1 failed and 0 were skipped. Details of recipes and environments follow.[0m
+20:02:15 [31mBIOCONDA ERROR[0m BUILD SUMMARY: FAILED recipe recipes/epigen[0m
